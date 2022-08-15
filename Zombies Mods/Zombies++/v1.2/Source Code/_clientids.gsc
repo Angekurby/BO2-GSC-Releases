@@ -558,7 +558,7 @@ initServerDvars() //credits to JezuzLizard!!! This is a huge help in making this
 	level.riotshieldHitPoints = getDvarIntDefault( "riotshieldHitPoints", 2250 );
 	level.zombie_vars[ "riotshield_hit_points" ] = level.riotshieldHitPoints;
 	//jugg health bonus
-	level.juggHealthBonus = getDvarIntDefault( "juggHealthBonus", 160 );
+	level.juggHealthBonus = getDvarIntDefault( "juggHealthBonus", 250 );
 	level.zombie_vars[ "zombie_perk_juggernaut_health" ] = level.juggHealthBonus;	
 	//perma jugg health bonus 
 	level.permaJuggHealthBonus = getDvarIntDefault( "permaJuggHealthBonus", 190 );
